@@ -9,4 +9,5 @@ RUN apk add --no-cache --virtual --update \
     ca-certificates \
     curl \
     && rm -rf /var/cache/apk/* \
+    && rm -rf /tmp/* \
     && rm -rf /var/lib/apt/lists/* 
