@@ -4,7 +4,7 @@ MAINTAINER Billy Ray Teves <billyteves@gmail.com>
 
 RUN apk add --no-cache --virtual --update \
     bash \
-    openssh \
+    openssh-client \
     openssl \
     ca-certificates \
     curl \
